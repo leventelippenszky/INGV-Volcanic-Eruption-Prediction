@@ -19,8 +19,10 @@ The goal was to predict the time until the next volcanic eruption given several 
 * `sample_submission` : metadata for the test files containing the test `segment_id`
 * `1136037770.csv` : example data segment containing ten minutes of logs from ten different sensors arrayed around a volcano
 * `train_gen.csv` : generated features from the example training data segment file `1136037770.csv` by runnning `src/preprocessing.py`
+
 `models/`
 * contains the 1st and 2nd level models including LightGBM, XGBoost and Neural Network models
+
 `oof_and_sub/`
 * out-of-fold (OOF) and test predictions of the 1st level models used as meta-features in the 2nd level stacking
 
