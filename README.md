@@ -1,4 +1,4 @@
-# INGV - Volcanic Eruption Prediction
+# INGV - Volcanic Eruption Prediction, 20th place solution
 Kaggle competition hosted by Italy's Istituto Nazionale di Geofisica e Vulcanologia (INGV).
 
 ## Overview
@@ -12,3 +12,5 @@ The training and test datasets contain readings from several seismic sensors aro
 
 ## Task
 The goal was to predict the time until the next volcanic eruption given several seismic sensor readings. The metric utilized for the evaluation of predictions was the mean absolute error (MAE).
+
+## Organization of files
