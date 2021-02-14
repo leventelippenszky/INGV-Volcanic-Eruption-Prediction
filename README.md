@@ -38,3 +38,5 @@ The goal was to predict the time until the next volcanic eruption given several 
 ## Methodology
 A detailed write-up of my approach can be found [here](https://www.kaggle.com/c/predict-volcanic-eruptions-ingv-oe/discussion/209766). The visualization of my modelling is depicted below.
 
+![Alt text](https://github.com/leventelippenszky/INGV-Volcanic-Eruption-Prediction/blob/main/ingv_flowchart.PNG)
+
