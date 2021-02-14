@@ -25,6 +25,10 @@ The goal was to predict the time until the next volcanic eruption given several 
 
 `oof_and_sub/`
 * out-of-fold (OOF) and test predictions of the 1st level models used as meta-features in the 2nd level stacking
+* 1: LightGBM, 2: XGBoost, 3: NN
+
+`src/`
+* contains scripts for the data processing
 
 
 
