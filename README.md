@@ -1,4 +1,4 @@
-# INGV - Volcanic Eruption Prediction, 20th place solution
+# INGV - Volcanic Eruption Prediction, 20th place solution (620 participants)
 Kaggle competition hosted by Italy's Istituto Nazionale di Geofisica e Vulcanologia (INGV).
 
 ## Overview
@@ -14,3 +14,9 @@ The training and test datasets contain readings from several seismic sensors aro
 The goal was to predict the time until the next volcanic eruption given several seismic sensor readings. The metric utilized for the evaluation of predictions was the mean absolute error (MAE).
 
 ## Organization of files
+`data\`
+* `train.csv` : metadata for the training files containing and ID code for each data segment, i.e. `segment_id` and the target value `time_to_eruption`
+* `sample_submission` : metadata for the test files containing the test `segment_id`s
+* `1136037770.csv` : example data segment containing ten minutes of logs from ten different sensors arrayed around a volcano
+* `train_gen.csv` : generated features from the example training data segment file `1136037770.csv` by runnning `src/preprocessing.py`
+
