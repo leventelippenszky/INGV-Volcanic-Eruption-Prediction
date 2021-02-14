@@ -30,5 +30,11 @@ The goal was to predict the time until the next volcanic eruption given several 
 `src/`
 * contains scripts for the data processing
 
+`blending\`
+* `sub_lgbm_level21.csv` : test predictions of the first 2nd level LightGBM model
+* `sub_lgbm_level21.csv` : test predictions of the second 2nd level LightGBM model
+* `avg_blending` : average blending of the 2nd level models' predictions, final submission file in the competition
 
+## Methodology
+A detailed write-up of my approach can be found [here](https://www.kaggle.com/c/predict-volcanic-eruptions-ingv-oe/discussion/209766). The visualization of my modelling is depicted below.
 
